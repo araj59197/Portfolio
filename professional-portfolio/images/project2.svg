@@ -1,0 +1,23 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0d0b1f"/>
+  <rect x="125" y="75" width="150" height="130" rx="8" fill="#1e1b3a" stroke="#667eea" stroke-width="3"/>
+  <rect x="180" y="60" width="40" height="22" rx="4" fill="#764ba2"/>
+  <rect x="187" y="65" width="26" height="12" rx="3" fill="#667eea"/>
+  <rect x="145" y="100" width="18" height="18" rx="3" fill="none" stroke="#667eea" stroke-width="2"/>
+  <polyline points="148,109 152,113 159,103" fill="none" stroke="#4ecdc4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="170" y1="109" x2="250" y2="109" stroke="#667eea" stroke-width="2"/>
+  <rect x="145" y="130" width="18" height="18" rx="3" fill="none" stroke="#667eea" stroke-width="2"/>
+  <polyline points="148,139 152,143 159,133" fill="none" stroke="#4ecdc4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="170" y1="139" x2="250" y2="139" stroke="#667eea" stroke-width="2"/>
+  <rect x="145" y="160" width="18" height="18" rx="3" fill="none" stroke="#667eea" stroke-width="2"/>
+  <line x1="170" y1="169" x2="250" y2="169" stroke="#667eea" stroke-width="2"/>
+  <rect x="145" y="178" width="18" height="18" rx="3" fill="none" stroke="#667eea" stroke-width="2"/>
+  <line x1="170" y1="187" x2="230" y2="187" stroke="#667eea" stroke-width="2"/>
+  <path d="M 285,100 Q 285,94 280,91 Q 275,88 270,91 Q 265,94 265,100 L 265,108 Q 265,112 268,115 L 282,115 Q 285,112 285,108 Z" fill="#ff6b6b" stroke="#ff4757" stroke-width="1"/>
+  <rect x="271" y="115" width="8" height="4" rx="2" fill="#ff6b6b"/>
+  <circle cx="275" cy="88" r="3" fill="#ffd700"/>
+  <text x="200" y="240" font-family="Arial" font-size="30" font-weight="bold" fill="#667eea" text-anchor="middle">Task Remainder</text>
+  <text x="200" y="265" font-family="Arial" font-size="14" fill="#764ba2" text-anchor="middle">Stay Organized and Productive</text>
+  <circle cx="100" cy="90" r="4" fill="#667eea" opacity="0.4"/>
+  <circle cx="300" cy="190" r="4" fill="#764ba2" opacity="0.4"/>
+</svg>

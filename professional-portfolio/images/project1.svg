@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1528"/>
+  <polygon points="200,80 240,120 220,180 180,180 160,120" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <polygon points="200,80 240,120 200,140" fill="#FFEC8B" opacity="0.5"/>
+  <polygon points="160,120 200,80 200,140" fill="#FFB90F" opacity="0.5"/>
+  <line x1="200" y1="80" x2="200" y2="180" stroke="#FF8C00" stroke-width="2"/>
+  <line x1="160" y1="120" x2="240" y2="120" stroke="#FF8C00" stroke-width="2"/>
+  <circle cx="200" cy="130" r="65" fill="none" stroke="#FFD700" stroke-width="3" opacity="0.6"/>
+  <circle cx="200" cy="130" r="75" fill="none" stroke="#FFA500" stroke-width="2" opacity="0.3"/>
+  <circle cx="90" cy="70" r="3" fill="#FFD700"/>
+  <circle cx="310" cy="90" r="3" fill="#FFA500"/>
+  <circle cx="110" cy="230" r="3" fill="#FFD700"/>
+  <circle cx="290" cy="210" r="3" fill="#FFA500"/>
+  <polygon points="320,70 322,75 327,75 323,78 325,83 320,80 315,83 317,78 313,75 318,75" fill="#FFD700"/>
+  <polygon points="80,220 82,225 87,225 83,228 85,233 80,230 75,233 77,228 73,225 78,225" fill="#FFA500"/>
+  <text x="200" y="235" font-family="Arial" font-size="30" font-weight="bold" fill="#FFD700" text-anchor="middle">Jewellary Website</text>
+  <text x="200" y="260" font-family="Arial" font-size="14" fill="#FFA500" text-anchor="middle">Elegant and Premium Design</text>
+  <line x1="50" y1="270" x2="130" y2="270" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+  <line x1="270" y1="270" x2="350" y2="270" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+</svg>

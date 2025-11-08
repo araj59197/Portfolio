@@ -1,0 +1,38 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#134e5e"/>
+  
+  <!-- Shopping Cart Body -->
+  <path d="M 140 130 L 145 105 L 255 105 L 260 130 Z" fill="#1e3a2e" stroke="#38ef7d" stroke-width="3"/>
+  <rect x="140" y="130" width="120" height="50" rx="5" fill="#1e3a2e" stroke="#38ef7d" stroke-width="3"/>
+  
+  <!-- Cart Handle -->
+  <path d="M 130 105 Q 120 95 125 80 L 140 80" fill="none" stroke="#38ef7d" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Left Wheel -->
+  <circle cx="165" cy="195" r="12" fill="#1e3a2e" stroke="#38ef7d" stroke-width="3"/>
+  <circle cx="165" cy="195" r="6" fill="#11998e"/>
+  
+  <!-- Right Wheel -->
+  <circle cx="235" cy="195" r="12" fill="#1e3a2e" stroke="#38ef7d" stroke-width="3"/>
+  <circle cx="235" cy="195" r="6" fill="#11998e"/>
+  
+  <!-- Items in cart -->
+  <rect x="160" y="115" width="20" height="20" rx="3" fill="#38ef7d" opacity="0.7"/>
+  <rect x="190" y="118" width="18" height="18" rx="3" fill="#11998e" opacity="0.7"/>
+  <rect x="218" y="116" width="19" height="19" rx="3" fill="#38ef7d" opacity="0.8"/>
+  
+  <!-- Shopping Bag Icon -->
+  <rect x="85" y="125" width="30" height="35" rx="4" fill="none" stroke="#38ef7d" stroke-width="2"/>
+  <path d="M 92 125 Q 100 115 108 125" fill="none" stroke="#38ef7d" stroke-width="2"/>
+  
+  <!-- Price Tag -->
+  <path d="M 285 115 L 305 115 L 312 125 L 305 135 L 285 135 Z" fill="#38ef7d"/>
+  <circle cx="292" cy="125" r="3" fill="#1e3a2e"/>
+  <text x="301" y="130" font-family="Arial" font-size="10" fill="#1e3a2e" font-weight="bold">$</text>
+  
+  <!-- Title -->
+  <text x="200" y="235" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#38ef7d" text-anchor="middle">Shopping Cart</text>
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#38ef7d" text-anchor="middle">Application</text>
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="13" fill="#11998e" text-anchor="middle">Complete E-commerce Solution</text>
+</svg>

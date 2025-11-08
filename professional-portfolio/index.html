@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aditya Raj - Full Stack Developer Portfolio showcasing web development projects, technical skills in React, Node.js, Python, and professional experience">
+    <meta name="keywords" content="Aditya Raj, Full Stack Developer, Web Developer, React, Node.js, JavaScript, Python, Portfolio">
+    <meta name="author" content="Aditya Raj">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Aditya Raj - Full Stack Developer Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing web development projects and technical expertise">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/personal_image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aditya Raj - Full Stack Developer">
+    <meta name="twitter:description" content="Professional portfolio showcasing web development projects">
+    
+    <title>Aditya Raj - Full Stack Developer | Professional Portfolio</title>
+    
+    <!-- Performance optimizations -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preload" href="images/personal_image.jpg" as="image">
+    
+    <!-- Critical CSS inline -->
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Segoe UI',sans-serif;background:#1e3c72;color:#333;overflow-x:hidden}
+        .loading{position:fixed;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,#1e3c72 0%,#2a5298 50%,#667eea 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999;transition:opacity 0.6s ease,transform 0.6s ease}
+        .loading.hide{opacity:0;transform:scale(0.9)}
+        .loader-content{display:flex;flex-direction:column;align-items:center;gap:2rem}
+        .loader-logo{font-size:2.5rem;font-weight:700;background:linear-gradient(45deg,#ff6b6b,#4ecdc4,#45b7d1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:3px;animation:logoFade 2s ease-in-out infinite}
+        .spinner-container{position:relative;width:80px;height:80px}
+        .spinner{width:80px;height:80px;border:4px solid rgba(255,255,255,0.1);border-radius:50%;border-top-color:#4ecdc4;border-right-color:#ff6b6b;border-bottom-color:#45b7d1;animation:spin 1.2s cubic-bezier(0.68,-0.55,0.27,1.55) infinite}
+        .spinner-inner{position:absolute;top:10px;left:10px;width:60px;height:60px;border:3px solid rgba(255,255,255,0.1);border-radius:50%;border-top-color:#45b7d1;animation:spin 0.8s linear infinite reverse}
+        .loading-text{color:rgba(255,255,255,0.9);font-size:1.1rem;font-weight:500;letter-spacing:2px;animation:pulse 1.5s ease-in-out infinite}
+        .progress-bar{width:200px;height:3px;background:rgba(255,255,255,0.1);border-radius:10px;overflow:hidden;margin-top:1rem}
+        .progress-fill{height:100%;background:linear-gradient(90deg,#4ecdc4,#ff6b6b,#45b7d1);border-radius:10px;animation:progress 2s ease-in-out infinite}
+        @keyframes spin{to{transform:rotate(360deg)}}
+        @keyframes logoFade{0%,100%{opacity:1;transform:translateY(0)}50%{opacity:0.7;transform:translateY(-5px)}}
+        @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.6}}
+        @keyframes progress{0%{width:0%;transform:translateX(0)}50%{width:70%;transform:translateX(0)}100%{width:100%;transform:translateX(0)}}
+        .bounce-letter{display:inline-block;animation:bounce 0.6s ease;opacity:0;animation-fill-mode:forwards}
+        @keyframes bounce{0%{opacity:0;transform:translateY(-50px) scale(0.5)}50%{transform:translateY(10px) scale(1.1)}70%{transform:translateY(-5px)}85%{transform:translateY(3px)}100%{opacity:1;transform:translateY(0) scale(1)}}
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Loading spinner -->
+    <div class="loading" id="loading">
+        <div class="loader-content">
+            <div class="loader-logo">ADITYA RAJ</div>
+            <div class="spinner-container">
+                <div class="spinner"></div>
+                <div class="spinner-inner"></div>
+            </div>
+            <div class="loading-text">Loading Portfolio...</div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo" id="navbar-logo">
+                <span style="color: #fff;">Aditya Raj</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 id="hero-name">Aditya Raj</h1>
+                    <h2 id="hero-subtitle">Full Stack Developer</h2>
+                    <p>Passionate about creating innovative web solutions and user experiences</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary">Get In Touch</a>
+                        <a href="#resume" class="btn-secondary">Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-circle">
+                        <img src="images/personal_image.jpg" alt="Aditya Raj - Full Stack Developer" class="profile-img" loading="eager" width="284" height="284">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/personal_image.jpg" alt="Aditya Raj - Full Stack Developer">
+                    <div class="image-border"></div>
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate Full Stack Developer with 1+ years of experience in creating modern web applications. I specialize in JavaScript technologies and have a strong background in both frontend and backend development.</p>
+                    <p>I love solving complex problems and turning ideas into reality through clean, efficient code. When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or enjoying outdoor activities.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <h1>Technical Skills</h1>
+            <div class="skills-container">
+                <!-- Frontend Skills Card -->
+                <div class="skill-category-card">
+                    <div class="skill-header">
+                        <span class="skill-icon">💻</span>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills Card -->
+                <div class="skill-category-card">
+                    <div class="skill-header">
+                        <span class="skill-icon">⚙️</span>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="78%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Express.js</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies Card -->
+                <div class="skill-category-card">
+                    <div class="skill-header">
+                        <span class="skill-icon">🛠️</span>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Git</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">VS Code</span>
+                        <span class="tech-badge">Postman</span>
+                        <span class="tech-badge">REST API</span>
+                        <span class="tech-badge">GitHub</span>
+                        <span class="tech-badge">Firebase</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h1>My Projects</h1>
+            <p class="section-description">Showcasing my web development projects with modern technologies</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.svg" alt="Jewellary Website" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#contact" class="project-link">Contact Me</a>
+                            <a href="https://araj59197.github.io/KodnestFrontend/" target="_blank" class="project-link">View Live</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">01</span>
+                        <h3>Jewellary Website</h3>
+                        <p>A beautiful and elegant jewelry website featuring modern frontend design, responsive layouts, and smooth animations. Built with pure HTML, CSS, and JavaScript.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.svg" alt="Task Remainder App" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#contact" class="project-link">Contact Me</a>
+                            <a href="https://araj59197.github.io/TaskRemainder/" target="_blank" class="project-link">View Live</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">02</span>
+                        <h3>Task Remainder</h3>
+                        <p>A professional-grade task management application built with React. Features advanced state management, modern UI/UX design, and demonstrates best practices in component architecture.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.svg" alt="Shopping Cart Application" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#contact" class="project-link">Contact Me</a>
+                            <a href="https://wondrous-bunny-0e7bd5.netlify.app/" target="_blank" class="project-link">View Live</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-number">03</span>
+                        <h3>Shopping Cart Application</h3>
+                        <p>A fully functional shopping cart application powered by React and Redux. Users can add/remove items, update quantities, and manage their shopping experience seamlessly.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Redux</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h1>Education & Certifications</h1>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">🎓</div>
+                    <h2>Bachelor of Science in Computer Science</h2>
+                    <h3>KIIT University</h3>
+                    <span>2021 - 2025</span>
+                    <p>Comprehensive degree program with specialization in Software Engineering, Web Technologies, and Full-Stack Development. Built strong foundation in algorithms, data structures, and modern development practices.</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">📜</div>
+                    <h2>Spring Boot Certification</h2>
+                    <h3>Coding Shuttle</h3>
+                    <span>2025</span>
+                    <p>Advanced certification in Spring Boot framework covering REST API development, microservices architecture, database integration, and production-ready enterprise application development.</p>
+                    <a href="https://drive.google.com/file/d/1q1v9jec73OEldRFASV1wlf5ja-HdZMOM/view?usp=sharing" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">🏆</div>
+                    <h2>Python Certification</h2>
+                    <h3>HackerRank</h3>
+                    <span>2022</span>
+                    <p>Professional certification demonstrating proficiency in Python programming, including data structures, algorithms, object-oriented programming, and problem-solving skills.</p>
+                    <a href="https://www.hackerrank.com/certificates/ec5f13fe1dff" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <h1>Resume</h1>
+            <div class="resume-content">
+                <div class="resume-summary">
+                    <div class="resume-icon">📄</div>
+                    <h3>Professional Resume</h3>
+                    <p>Download my comprehensive resume to get a detailed overview of my professional experience, technical skills, projects, and educational background.</p>
+                    <div class="resume-buttons">
+                        <a href="resume/ad_resume.pdf" download class="btn-primary">
+                            <span class="btn-icon">⬇️</span>
+                            <span>Download PDF</span>
+                        </a>
+                    </div>
+                    <div class="resume-info">
+                        <p><strong>📅 Last Updated:</strong> November 2025</p>
+                        <p><strong>📊 File Size:</strong> PDF Document</p>
+                    </div>
+                </div>
+                <div class="resume-preview">
+                    <div class="resume-quick-info">
+                        <h4>Quick Overview</h4>
+                        <div class="quick-stats">
+                            <div class="quick-stat">
+                                <span class="stat-icon">💼</span>
+                                <div>
+                                    <strong>Experience</strong>
+                                    <p>1+ Years</p>
+                                </div>
+                            </div>
+                            <div class="quick-stat">
+                                <span class="stat-icon">📍</span>
+                                <div>
+                                    <strong>Location</strong>
+                                    <p>India</p>
+                                </div>
+                            </div>
+                            <div class="quick-stat">
+                                <span class="stat-icon">✅</span>
+                                <div>
+                                    <strong>Availability</strong>
+                                    <p>Open to opportunities</p>
+                                </div>
+                            </div>
+                            <div class="quick-stat">
+                                <span class="stat-icon">🌐</span>
+                                <div>
+                                    <strong>Remote Work</strong>
+                                    <p>Available</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h1>Get In Touch</h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to work together!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>araj59197@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+917091833975</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Sitamari, Bihar, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/aditya-raj-545a4b269/" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                        <a href="https://github.com/araj59197" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                        <div id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Aditya Raj. All rights reserved. | Built with ❤️ using HTML, CSS & JavaScript</p>
+    </footer>
+</body>
+</html>
