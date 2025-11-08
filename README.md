@@ -5,7 +5,7 @@
 
 <!-- Typing SVG Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=667EEA&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Web+Developer+%F0%9F%9A%80;Creative+Problem+Solver+%F0%9F%92%A1;UI%2FUX+Enthusiast+%F0%9F%8E%A8;Always+Learning+%F0%9F%93%9A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=667EEA&center=true&vCenter=true&random=false&width=600&lines=Frontend+Web+Developer+🚀;Creative+Problem+Solver+💡;UI%2FUX+Enthusiast+🎨;Always+Learning+📚" alt="Typing SVG" />
 </p>
 
 <!-- Animated Badges -->
@@ -41,26 +41,26 @@
 <br>
 
 <!-- Overview Section with Icons -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bullseye.png" alt="Bullseye" width="35" height="35" /> Overview
+## 🎯 Overview
 
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
 <p align="left">
-A <b>professional, responsive portfolio</b> website built with vanilla HTML, CSS, and JavaScript. Features <b>smooth animations</b>, <b>glassmorphic design</b> elements, and <b>optimized performance</b>.
+A <b>professional, responsive frontend portfolio</b> website built with <b>pure HTML, CSS, and JavaScript</b>. No frameworks, no backend - just clean, efficient client-side code with <b>smooth animations</b>, <b>glassmorphic design</b> elements, and <b>optimized performance</b>.
 </p>
 
 <p align="left">
-💎 <b>Modern Design</b> with attention to detail<br>
-⚡ <b>Lightning Fast</b> load times<br>
-📱 <b>Fully Responsive</b> across all devices<br>
-🎨 <b>Unique Animations</b> that engage users<br>
-🔍 <b>SEO Optimized</b> for better visibility<br>
+💎 <b>Pure Frontend</b> - No frameworks or libraries<br>
+⚡ <b>Lightning Fast</b> - Static site with minimal dependencies<br>
+📱 <b>Fully Responsive</b> - Works on all devices<br>
+🎨 <b>Modern Animations</b> - CSS & JavaScript powered<br>
+🔍 <b>SEO Optimized</b> - Meta tags for better visibility<br>
 </p>
 
 <br clear="right"/>
 
 <!-- Features Section with Enhanced Design -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sparkles.png" alt="Sparkles" width="35" height="35" /> Features
+## ✨ Features
 
 <div align="center">
 
@@ -68,7 +68,7 @@ A <b>professional, responsive portfolio</b> website built with vanilla HTML, CSS
 <tr>
 <td align="center" width="50%">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Artist%20Palette.png" alt="Palette" width="25" /> Design
+### 🎨 Design
 
 🎨 **Glassmorphic** effects<br>
 💜 **Purple gradient** theme<br>
@@ -78,7 +78,7 @@ A <b>professional, responsive portfolio</b> website built with vanilla HTML, CSS
 </td>
 <td align="center" width="50%">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="Voltage" width="25" /> Performance
+### ⚡ Performance
 
 ⚡ **Lazy loading** images<br>
 🚀 **Optimized** animations<br>
@@ -90,7 +90,7 @@ A <b>professional, responsive portfolio</b> website built with vanilla HTML, CSS
 <tr>
 <td align="center" width="50%">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Puzzle%20Piece.png" alt="Puzzle" width="25" /> Sections
+### 🧩 Sections
 
 🎯 Hero with **animated name**<br>
 👤 About with **stats**<br>
@@ -100,7 +100,7 @@ A <b>professional, responsive portfolio</b> website built with vanilla HTML, CSS
 </td>
 <td align="center" width="50%">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" alt="Mobile" width="25" /> Interactive
+### 📱 Interactive
 
 🎪 **Bouncing letter** effect<br>
 ✅ Form **validation**<br>
@@ -116,7 +116,7 @@ A <b>professional, responsive portfolio</b> website built with vanilla HTML, CSS
 <br>
 
 <!-- Tech Stack with Enhanced Badges -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="35" height="35" /> Built With
+## 🛠️ Built With
 
 <div align="center">
 
@@ -136,11 +136,14 @@ A <b>professional, responsive portfolio</b> website built with vanilla HTML, CSS
 
 | Technology | Purpose |
 |:----------:|:-------:|
-| **Vanilla JavaScript (ES6+)** | Core functionality & interactivity |
+| **Vanilla JavaScript (ES6+)** | Client-side interactivity & animations |
 | **CSS Grid & Flexbox** | Responsive layout system |
-| **Intersection Observer API** | Scroll-based animations |
-| **CSS Custom Properties** | Dynamic theming |
-| **SVG Graphics** | Scalable project logos |
+| **Intersection Observer API** | Scroll-triggered animations |
+| **CSS Custom Properties** | Dynamic theming & styling |
+| **SVG Graphics** | Scalable vector logos |
+| **HTML5 Semantic Tags** | Better SEO & accessibility |
+
+**🎯 100% Frontend - No Backend Required**
 
 </div>
 
@@ -171,11 +174,11 @@ A <b>professional, responsive portfolio</b> website built with vanilla HTML, CSS
 <br>
 
 <!-- Quick Start with Step-by-Step Guide -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="35" height="35" /> Quick Start
+## 🚀 Quick Start
 
 <div align="center">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clap" width="25" /> Get Started in 3 Easy Steps!
+### 👏 Get Started in 3 Easy Steps!
 
 </div>
 
@@ -247,7 +250,7 @@ npx http-server -p 8000
 <br>
 
 <!-- Customization Guide with Visual Examples -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Paintbrush.png" alt="Paintbrush" width="35" height="35" /> Customization Guide
+## 🎨 Customization Guide
 
 <details open>
 <summary><b>🎨 Change Colors</b></summary>
@@ -317,7 +320,7 @@ Navigate to `images/` folder and replace:
 <br>
 
 <!-- Performance Metrics with Visual Design -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="35" height="35" /> Performance Metrics
+## 📊 Performance Metrics
 
 <div align="center">
 
@@ -368,7 +371,7 @@ Navigate to `images/` folder and replace:
 <br>
 
 <!-- Responsive Design with Visual Table -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" alt="Computer" width="35" height="35" /> Responsive Design
+## 📱 Responsive Design
 
 <div align="center">
 
@@ -396,7 +399,7 @@ Navigate to `images/` folder and replace:
 <br>
 
 <!-- Key Features with Detailed Explanations -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" alt="Bulb" width="35" height="35" /> Key Features Explained
+## 💡 Key Features Explained
 
 <div align="center">
 
@@ -405,8 +408,6 @@ Navigate to `images/` folder and replace:
 <td width="50%" valign="top">
 
 ### 🎭 Bouncing Letter Animation
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" alt="Star" width="60" />
 
 Each letter in the hero name features **unique animation**:
 
@@ -421,8 +422,6 @@ Each letter in the hero name features **unique animation**:
 <td width="50%" valign="top">
 
 ### 🎨 Glassmorphic Design
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" alt="Galaxy" width="60" />
 
 Modern UI cards featuring:
 
@@ -440,8 +439,6 @@ Modern UI cards featuring:
 
 ### ⚡ Performance Optimizations
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="60" />
-
 **Optimizations implemented:**
 
 - 🖼️ Lazy loading for images
@@ -456,8 +453,6 @@ Modern UI cards featuring:
 <td width="50%" valign="top">
 
 ### 🎯 SEO Optimization
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Left.png" alt="Search" width="60" />
 
 **SEO Features:**
 
@@ -478,7 +473,7 @@ Modern UI cards featuring:
 <br>
 
 <!-- Connect Section with Animated Badges -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Wave" width="35" height="35" /> Connect With Me
+## 👋 Connect With Me
 
 <div align="center">
 
@@ -511,7 +506,7 @@ Modern UI cards featuring:
 <br>
 
 <!-- GitHub Stats with Enhanced Design -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Stats" width="35" height="35" /> GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -530,7 +525,6 @@ Modern UI cards featuring:
 <img src="https://img.shields.io/github/forks/araj59197/Portfolio?style=for-the-badge&logo=github&logoColor=white&color=764ba2" alt="Forks"/>
 <img src="https://img.shields.io/github/watchers/araj59197/Portfolio?style=for-the-badge&logo=github&logoColor=white&color=4ecdc4" alt="Watchers"/>
 <img src="https://img.shields.io/github/issues/araj59197/Portfolio?style=for-the-badge&logo=github&logoColor=white&color=ff6b6b" alt="Issues"/>
-<img src="https://img.shields.io/github/license/araj59197/Portfolio?style=for-the-badge&logo=github&logoColor=white&color=45b7af" alt="License"/>
 
 <br><br>
 
@@ -543,7 +537,7 @@ Modern UI cards featuring:
 <br>
 
 <!-- Future Enhancements with Icons -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crystal%20Ball.png" alt="Crystal Ball" width="35" height="35" /> Future Enhancements
+## 🔮 Future Enhancements
 
 <div align="center">
 
@@ -562,7 +556,7 @@ Modern UI cards featuring:
 <td width="50%" valign="top">
 
 ### 📱 Features & Content
-- [ ] 📝 Blog section with CMS integration
+- [ ] 📝 Blog section (frontend only)
 - [ ] 🔍 Project filtering by technology
 - [ ] 💬 Testimonials carousel
 - [ ] 📊 Skills radar chart visualization
@@ -577,18 +571,18 @@ Modern UI cards featuring:
 - [ ] ⚡ PWA (Progressive Web App) support
 - [ ] 🗺️ Sitemap.xml generation
 - [ ] 📈 Google Analytics integration
-- [ ] 🔔 Push notifications
 - [ ] 🌐 Multi-language support (i18n)
+- [ ] 🔍 Enhanced meta tags
 
 </td>
 <td width="50%" valign="top">
 
 ### 🛠️ Technical Improvements
-- [ ] 📧 Contact form backend (EmailJS)
-- [ ] 🔐 Admin dashboard for content
+- [ ] 📧 Contact form (EmailJS - no backend)
 - [ ] 🎯 A/B testing implementation
 - [ ] 📱 Share buttons for projects
-- [ ] 🤖 Chatbot integration
+- [ ] 📦 Service Worker for offline support
+- [ ] 🎪 More interactive animations
 
 </td>
 </tr>
@@ -616,29 +610,8 @@ gantt
 
 <br>
 
-<!-- License Section -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20with%20Curl.png" alt="License" width="35" height="35" /> License
-
-<div align="center">
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-<br>
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-**You are free to:**
-- ✅ Use commercially
-- ✅ Modify
-- ✅ Distribute
-- ✅ Private use
-
-</div>
-
-<br>
-
 <!-- Acknowledgments Section -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" alt="Heart" width="35" height="35" /> Acknowledgments
+## ❤️ Acknowledgments
 
 <div align="center">
 
@@ -646,7 +619,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 🎨 **Design Inspiration** - Modern portfolio trends and Dribbble community  
 🌈 **Color Gradients** - [UI Gradients](https://uigradients.com/)  
-🎭 **Animated Icons** - [Tarikul Islam Anik](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)  
 📊 **GitHub Stats** - [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)  
 🎪 **Badges** - [Shields.io](https://shields.io/)  
 💻 **Icons** - [Skill Icons](https://skillicons.dev/)  
@@ -659,13 +631,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands.png" alt="Thank You" width="35" height="35" /> Thank You for Visiting!
+## 🙏 Thank You for Visiting!
 
 ### ⭐ If you like this project, please give it a star!
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" alt="Beating Heart" width="80" />
-
-**Made with 💜 by [Aditya Raj](https://github.com/araj59197)**
+💜 **Made with passion by [Aditya Raj](https://github.com/araj59197)** 💜
 
 <br>
 
